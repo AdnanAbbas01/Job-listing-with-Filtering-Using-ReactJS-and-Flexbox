@@ -1,0 +1,76 @@
+.job{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+   width: 98%;
+   display: flex;
+   align-items: center;
+   margin: 20px auto;
+   background-color: #fff;
+   box-shadow: 0px 5px 10px rgba(54, 156, 151, 0.3);
+   border-radius: 5px;
+}
+
+.imgMain{
+    margin-right: 20px;
+}
+.image{
+    height: 70px;
+    width: 70px;
+    box-sizing: border-box;
+}
+
+.jobDetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cmpName{
+    color: rgb(14, 109, 116);
+    font-weight: bold;
+}
+
+.jobDetails p{
+    margin: 0;
+    padding: 0;
+}
+
+.jobReq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jobReq h2{
+   margin: 0;
+   padding: 0;
+}
+.duraLoc{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btn{
+    background-color: rgb(212, 243, 245);
+    border: none;
+    border-radius: 2px;
+    color: rgb(14, 109, 116);
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.not{
+    display: none;
+}
+
+.btn:hover{
+    background-color: rgb(14, 109, 116);
+    color: #fff;
+}
